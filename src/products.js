@@ -1,8 +1,7 @@
-// import images
 
 export const PRODUCTS = [
     {
-        id: 2,
+        id: 1,
         productName: "product1",
         price: 1.0,
         // productImage: productImage
