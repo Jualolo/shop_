@@ -2,17 +2,17 @@ import React from "react";
 
 
 export const Product = (props) => {
-    const {id, productName, price} = props.data;
+    const {id, productName, price, productImage} = props.data;
     return (
     <div className="product">
 
-        {/* image */}
+        <img src={productImage} alt="Image" />
 
         <div className="description">
             <p>
                 <b>{productName}</b>
             </p>
-            <p>${price}</p>
+            <p>{price}€</p>
         </div>
     </div>
     )
