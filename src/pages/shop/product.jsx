@@ -10,10 +10,12 @@ export const Product = (props) => {
 
         <div className="description">
             <p>
-                <b>{productName}</b>
+                <h2>{productName}</h2>
             </p>
-            <p>{price}€</p>
+            <p className="price">{price}€</p>
         </div>
+
+        <button className="button"> Add to Cart </button>
     </div>
     )
 }
